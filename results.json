@@ -1,0 +1,68 @@
+{
+  "data_quality": {
+    "rows": 178,
+    "columns": 13,
+    "missing_values": 0,
+    "duplicates": 0
+  },
+  "class_counts": {
+    "Cultivar 1": 59,
+    "Cultivar 2": 71,
+    "Cultivar 3": 48
+  },
+  "top_correlations": [
+    {
+      "a": "flavanoids",
+      "b": "total_phenols",
+      "r": 0.86
+    },
+    {
+      "a": "od280_od315",
+      "b": "flavanoids",
+      "r": 0.79
+    },
+    {
+      "a": "od280_od315",
+      "b": "total_phenols",
+      "r": 0.7
+    }
+  ],
+  "best_separating_features": {
+    "flavanoids": 233.9,
+    "proline": 207.9,
+    "od280_od315": 190.0,
+    "alcohol": 135.1
+  },
+  "mean_profile_top_features": {
+    "Cultivar 1": {
+      "flavanoids": 2.98,
+      "proline": 1115.71,
+      "od280_od315": 3.16,
+      "alcohol": 13.74
+    },
+    "Cultivar 2": {
+      "flavanoids": 2.08,
+      "proline": 519.51,
+      "od280_od315": 2.79,
+      "alcohol": 12.28
+    },
+    "Cultivar 3": {
+      "flavanoids": 0.78,
+      "proline": 629.9,
+      "od280_od315": 1.68,
+      "alcohol": 13.15
+    }
+  },
+  "pca_explained_variance_2d": 0.554,
+  "pca_explained_variance": [
+    0.362,
+    0.192
+  ],
+  "rf_cv_accuracy_mean": 0.967,
+  "rf_cv_accuracy_std": 0.021,
+  "rf_top3_importance": {
+    "flavanoids": 0.181,
+    "proline": 0.162,
+    "color_intensity": 0.161
+  }
+}
